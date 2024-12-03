@@ -3,8 +3,7 @@ import { expect } from "chai";
 
 import {Stack}  from "./stack";
 
-describe("StackUnitTest", () => {
-    // test case for average here
+describe("Stack Tests", () => {
     
     describe("Push", () => {
         it("should revert stack underflow", () => {
